@@ -1,2 +1,41 @@
 # Bird-Migration-Data-Analysis
 This project uses real-world bird migration data to explore and visualize key trends
+
+# 📊 Visualizations Included
+
+1. Top 10 Most Common Bird Species (bar chart)
+2. Flight Distance Distribution (histogram)
+3. Migration Success Rate by Region (stacked bar chart)
+4. Correlation Heatmap of Numeric Features
+5. Average Flight Distance by Species (bar chart)
+6. Altitude by Habitat Type (box plot)
+7. Migration Counts by Start Month (count plot)
+8. Flight Metrics Relationships (pair plot)
+
+---
+
+# 🧰 Technologies Used
+
+- Python 3.x
+- [Pandas](https://pandas.pydata.org/) – for data manipulation
+- [Matplotlib](https://matplotlib.org/) – for plotting
+- [Seaborn](https://seaborn.pydata.org/) – for statistical data visualization
+
+---
+
+# 🚀 How to Run
+
+1. Make sure Python and required packages are installed:
+   pip install pandas matplotlib seaborn
+2. Place both bird_migration_analysis.py and bird_migration_data.csv in the same folder.
+3. Run the script: python bird_migration_analysis.py
+
+Sample Output
+![image](https://github.com/user-attachments/assets/d6ec8214-6006-4b9e-9fd2-35e33f2f505f)
+![image](https://github.com/user-attachments/assets/fbcc4e18-3324-4607-be15-b7f37d3aa2f8)
+![image](https://github.com/user-attachments/assets/6825fc98-39bf-4e10-a1fe-6555ca377a9b)
+![image](https://github.com/user-attachments/assets/61ff0958-9378-47c5-a12b-934da4ab74b5)
+![image](https://github.com/user-attachments/assets/ccb6d1ba-9f51-4b15-8ccd-a79bbed68164)
+![image](https://github.com/user-attachments/assets/841a0c0c-f930-4877-a980-682470a7a6e5)
+![image](https://github.com/user-attachments/assets/bf37fc45-aef8-4110-b8f9-12edc429de07)
+![image](https://github.com/user-attachments/assets/a7214c3b-6246-4f39-b7e4-3a308f2588ce)
