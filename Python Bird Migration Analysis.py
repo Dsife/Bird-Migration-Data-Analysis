@@ -9,12 +9,12 @@ df = pd.read_csv("bird_migration_data.csv")
 sns.set(style="whitegrid")
 
 # ---------------------------------------------------
-# 1. Top 10 Most Common Bird Species (Bar Plot)
+# 1. Most Common Bird Species (Bar Plot)
 # ---------------------------------------------------
 plt.figure(figsize=(10, 6))
 species_counts = df["Species"].value_counts().head(10)
 sns.barplot(x=species_counts.values, y=species_counts.index, palette="viridis")
-plt.title("Top 10 Most Common Bird Species")
+plt.title("Most Common Bird Species")
 plt.xlabel("Count")
 plt.ylabel("Species")
 plt.tight_layout()
@@ -55,13 +55,13 @@ plt.tight_layout()
 plt.show()
 
 # ---------------------------------------------------
-# 5. Average Flight Distance by Top 10 Bird Species
+# 5. Average Flight Distance by Bird Species
 # ---------------------------------------------------
 top_species = df["Species"].value_counts().head(10).index
 top_df = df[df["Species"].isin(top_species)]
 plt.figure(figsize=(10, 6))
 sns.barplot(data=top_df, x="Flight_Distance_km", y="Species", estimator='mean', palette="crest")
-plt.title("Average Flight Distance by Top 10 Bird Species")
+plt.title("Average Flight Distance by Bird Species")
 plt.xlabel("Average Distance (km)")
 plt.ylabel("Species")
 plt.tight_layout()
